@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="https://stackedit.io/style.css" />
     <link rel="stylesheet" href="tuts.css" />
     <link rel="stylesheet" href="dark.css" />
-    <link rel="stylesheet" href="1.css" />
 </head>
 
 <body class="stackedit">
     <div class="stackedit__html">
+        <span id="theme-toggler" onclick="toggleTheme()">Toggle Theme</span>
+        <br>
+        <span id="size-toggler" onclick="toggleSize()">Toggle Size</span>
         <h1 id="welcome-to-java">Welcome to Java!</h1>
         <p><img src="https://cdn.discordapp.com/attachments/595772150078767106/917138802458370099/8d0.gif"
                 alt="What people think programming is like"></p>
-        <p>The first program many people write whenever they start a new project is called “Hello World!”.<br>
-            This is simply a sanity check program to see if they’ve set up their coding environment correctly.</p>
+        <p>The first program you are to write is known colloquially as the "Hello World" program.<br>
+            This is simply a sanity check program to see if you've set up your coding environment correctly.</p>
         <p>The Java command to print to standard output is:</p>
         <pre class=" language-java"><code class="prism  language-java">System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Your Text Here"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
@@ -198,12 +200,15 @@
                     href="https://docs.oracle.com/javase/tutorial/java/data/characters.html" target="_blank"
                     rel="noreferrer">look here.</a></p>
         </details>
+        <a href="#theme-toggler" class="no-link-style">return to top</a>
         <div class="bottom-nav">
             <div>
                 <a href="./">Return</a>
             </div>
         </div>
     </div>
+    <script src="themeToggler.js"></script>
+    <script src="sizeToggler.js"></script>
 </body>
 
 </html>

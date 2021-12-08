@@ -2,14 +2,26 @@ summary {
   user-select: none;
 }
 
+#theme-toggler, #size-toggler {
+  user-select: none;
+  float: right;
+  cursor: pointer;
+}
+
+#theme-toggler {
+  top: 8vh;
+}
+
+#size-toggler {
+  top: 12vh;
+}
+
 .stackedit {
   padding-top: 40px;
 }
 
 .stackedit__html {
   box-shadow: 10px 10px 5px 12px grey;
-  transform: scale(1.2);
-  transform-origin: top;
   padding-top: 20px;
   margin-bottom: 30vh;
 }
@@ -33,4 +45,27 @@ summary {
 
 .shadowed {
   box-shadow: 2px 2px 2px black;
+}
+
+.normal {
+  transform: scale(1);
+  transform-origin: center;
+  margin-top: inherit;
+  transition: transform 150ms ease-in, margin-top 150ms ease-in;
+}
+
+.zoom {
+  transform: scale(1.35);
+  transform-origin: center;
+  margin-top: 50vh;
+  transition: transform 150ms ease-in, margin-top 150ms ease-in;
+}
+
+.no-link-style {
+  text-decoration: none;
+  color: inherit;
+}
+
+.no-link-style:hover {
+  filter: brightness(0.8);
 }

@@ -11,20 +11,20 @@
 </head>
 
 <body class="stackedit">
-    <div class="stackedit__html">
+    <div class="stackedit__html normal">
+        <span id="theme-toggler" onclick="toggleTheme()">Toggle Theme</span>
+        <br>
+        <span id="size-toggler" onclick="toggleSize()">Toggle Size</span>
         <h1 id="why-compsci-why-java-and-more">Why CompSci? Why Java? A Preface</h1>
         <p><img src="https://64.media.tumblr.com/9144fb80ca663b4d692638de86f74b21/tumblr_pa6f89QeRP1x882y0o1_500.gifv"
                 alt="Programming" class="shadowed"><br><br>
-            The scope of the former question should be extended a bit: <strong>why learn anything in general?</strong>
-            What good is the pursuit of knowledge? Perhaps by being here you admit to having at least a baseline
+            Answer to the former: <strong>Perhaps</strong> by being here you admit to having somewhat of a baseline
             interest in
-            the machinations of your own computers. The computers you likely use every day, the computers that've
-            brought people to the Moon and back, the computers that've both simplified and complicated our world,
-            who’ve connected every single
-            corner of the planet to every single other corner. Maybe you feel somewhat of an obligation to understand
-            how the pieces fit. Or maybe you’ve been enamoured by the prospect of earning that silicon valley six-figure
-            income. Or maybe you just want that grade, and AP CompSci was a no-brainer to the alternatives. The truth
-            is, there are so many reasons to learn that I <em>cannot</em> pick one for you.</p>
+            the machinations of your own computers. Driven by pure curiosity, the prospect of making Software
+            Development your lucrative career choice, a desire to create things with code, or simply to get a grade. The
+            truth
+            is, there are so many reasons to learn CS that I <em>cannot</em> pick one for you.
+        </p>
         <p>The answer to the second question, <strong>“why Java?”</strong>, or more specifically, <strong>“why
                 <em>start</em> with Java?”</strong> is equally frustrating. I would be lying if I said I had a
             definitive reason as for why you should choose Java as your first programming language over the likes of
@@ -41,6 +41,11 @@
             Forcing yourself to learn something specifically because someone else believes it's the best way to learn
             programming is a quick way to hate programming and learning in general.
         </h3>
+
+        <p>By centering your focus on learning programming in a vacuum, you set yourself up for <em>boredom</em> and
+            consequently
+            <em>failure</em>.
+        </p>
 
         <p>Are you interested in developing websites? Start with HTML, CSS, and JavaScript, dabble in React and other JS
             frameworks, learn how backend frameworks work like Node or Django, and don’t forget your database.</p>
@@ -66,12 +71,15 @@
             some colleges are even going as far as replacing their Java-focused curricula with Python. In any case, Java
             has some syntactical features that, without a doubt, equip you with accountability and knowledge about what
             your program is actually doing, which has found appeal in the classroom setting.</p>
+        <a href="#theme-toggler" class="no-link-style">return to top</a>
         <div class="bottom-nav">
             <div>
                 <a href="./">Return</a>
             </div>
         </div>
     </div>
+    <script src="themeToggler.js"></script>
+    <script src="sizeToggler.js"></script>
 </body>
 
 </html>
