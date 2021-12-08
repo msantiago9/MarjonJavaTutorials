@@ -23,3 +23,7 @@
 .bordered {
   border: 1px solid black;
 }
+
+.shadowed {
+  box-shadow: 2px 2px 2px black;
+}

@@ -1,0 +1,14 @@
+.stackedit {
+    background-color: rgb(20, 20, 20);
+}
+
+.stackedit__html {
+    background-color: rgb(56, 56, 56);
+    color: rgb(212, 212, 212);
+    box-shadow: 10px 10px 5px 12px rgb(0, 0, 0);
+    padding-top: inherit;
+}
+
+blockquote>p {
+    color: rgb(236, 236, 236);
+}
